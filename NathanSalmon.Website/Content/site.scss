@@ -1,0 +1,50 @@
+﻿$font-family-primary: 'Expletus Sans', cursive;
+$font-family-secondary: 'Dynalight', cursive;
+
+$colour-blue: #1f73a8 ;
+$colour-green: #268b87;
+$colour-pale-yellow: #fff7b2;
+$colour-gold: #e1b50c;
+$colour-dark-grey: #747578;
+$colour-pale-grey: #b5bbc3;
+$colour-black: #000000;
+
+$font-white:#fff;
+
+body {
+    font: 100% $font-family-primary;
+}
+
+
+#top .skills {
+    font: 100% $font-family-secondary;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+section.black {
+    background-color: $colour-black;
+    color: $font-white;
+}
+section.green{
+    background-color:$colour-green;
+    color:$font-white;
+}
+section.blue {
+    background-color: $colour-blue;
+    color: $font-white;
+}
+section.pale-yellow {
+    background-color: $colour-pale-yellow;
+}
+section.gold {
+    background-color: $colour-gold;
+}
+section.dark-grey {
+    background-color: $colour-dark-grey;
+    color: $font-white;
+}
+section.pale-grey {
+    background-color: $colour-pale-grey;
+}
